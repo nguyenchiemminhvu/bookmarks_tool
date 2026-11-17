@@ -1,0 +1,4 @@
+artifacts-ada/.telemetry/
+artifacts-ada/compile-check/
+__pycache__/
+data/

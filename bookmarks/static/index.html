@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bookmarks</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+<aside>
+  <div class="brand">Bookmarks</div>
+  <input id="tag-filter" type="search" placeholder="Filter tags" autocomplete="off">
+  <div class="tag-header" id="tag-total">Tags</div>
+  <ul id="tag-list"></ul>
+  <div class="sidebar-footer">
+    Drag to your browser's bookmarks bar for one-click saving:<br>
+    <a id="bookmarklet" class="bookmarklet" href="#">+ Save to Bookmarks</a>
+  </div>
+</aside>
+
+<main>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search title, URL, notes, tags  (press /)" autocomplete="off">
+    <select id="status-filter" title="Link status">
+      <option value="">Any status</option>
+      <option value="ok">OK</option>
+      <option value="auth">Login required</option>
+      <option value="broken">Broken</option>
+      <option value="unreachable">Unreachable</option>
+      <option value="error">Error</option>
+      <option value="skipped">Skipped</option>
+      <option value="unchecked">Unchecked</option>
+    </select>
+    <select id="sort" title="Sort order">
+      <option value="newest">Newest first</option>
+      <option value="oldest">Oldest first</option>
+      <option value="title">Title A-Z</option>
+      <option value="updated">Recently updated</option>
+      <option value="status">Problems first</option>
+    </select>
+    <button id="btn-add" class="primary" type="button">Add link</button>
+    <button id="btn-check" type="button">Check all</button>
+    <button id="btn-creds" type="button">Credentials</button>
+    <button id="btn-import" type="button">Import</button>
+    <a id="btn-export" class="button" href="/api/export" download>Export</a>
+    <input id="import-file" type="file" accept=".html,.htm,.json" hidden>
+  </div>
+
+  <div class="filterbar">
+    <span id="result-count"></span>
+    <span id="active-filters"></span>
+  </div>
+
+  <div id="bulkbar" class="bulkbar hidden">
+    <span id="bulk-count"></span>
+    <button type="button" id="bulk-add-tags">Add tags</button>
+    <button type="button" id="bulk-remove-tags">Remove tags</button>
+    <button type="button" id="bulk-check">Check</button>
+    <button type="button" id="bulk-delete" class="danger">Delete</button>
+    <button type="button" id="bulk-clear">Clear selection</button>
+  </div>
+
+  <div class="content">
+    <table class="links">
+      <thead>
+        <tr>
+          <th class="sel"><input type="checkbox" id="select-all" title="Select all visible links"></th>
+          <th>Link</th>
+          <th>Tags</th>
+          <th>Status</th>
+          <th>Added</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div id="empty" class="empty hidden"></div>
+  </div>
+</main>
+
+<dialog id="editor">
+  <form id="editor-form" autocomplete="off">
+    <h2 id="editor-heading">Add link</h2>
+    <label for="f-url">URL</label>
+    <div class="row">
+      <input id="f-url" name="url" type="text" required>
+      <button type="button" id="btn-fetch-title">Fetch title</button>
+    </div>
+    <p id="dup-warning" class="warning hidden"></p>
+    <label>Title<input name="title" type="text"></label>
+    <label>Tags <span class="hint">lowercase ASCII, separated by spaces or commas</span><input name="tags" type="text"></label>
+    <div id="tag-suggestions" class="suggestions"></div>
+    <label>Notes<textarea name="notes" rows="3"></textarea></label>
+    <p id="editor-error" class="error"></p>
+    <div class="dialog-actions">
+      <button type="button" id="btn-cancel">Cancel</button>
+      <button type="submit" class="primary">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="creds" class="wide">
+  <h2>Credentials</h2>
+  <p class="hint">
+    Used only by this dashboard's link checker and title fetcher, so intranet tools (Jira, Collab, Polarion,
+    GitLab, ...) can be checked as a logged-in user. Your browser keeps using its own login when you open a link.
+    Stored in <code>~/.bookmarks/credentials.json</code>, readable only by your account. A saved token is never shown again.
+  </p>
+  <table class="cred-table">
+    <thead><tr><th>Label</th><th>Host</th><th>Auth</th><th></th></tr></thead>
+    <tbody id="cred-rows"></tbody>
+  </table>
+  <p id="cred-empty" class="hint hidden">No credentials yet.</p>
+  <form id="cred-form" autocomplete="off">
+    <h3 id="cred-heading">Add credential</h3>
+    <div class="grid">
+      <label>Label<input name="label" type="text" placeholder="e.g. Jira VLM"></label>
+      <label>Host<input name="host" type="text" required placeholder="vlm.lge.com or *.lge.com"></label>
+      <label>Auth type
+        <select name="type">
+          <option value="bearer">Bearer token (Jira / Confluence / Polarion PAT)</option>
+          <option value="basic">Basic (username + password or token)</option>
+          <option value="header">Custom header (e.g. GitLab PRIVATE-TOKEN)</option>
+        </select>
+      </label>
+      <label data-auth="basic">Username<input name="username" type="text"></label>
+      <label data-auth="header">Header name<input name="header" type="text" placeholder="PRIVATE-TOKEN"></label>
+      <label>Token / password<input name="secret" type="password" autocomplete="new-password"></label>
+    </div>
+    <p id="cred-message" class="error"></p>
+    <div class="dialog-actions">
+      <button type="button" id="cred-new">New</button>
+      <span class="spacer"></span>
+      <button type="button" id="cred-close">Close</button>
+      <button type="submit" class="primary">Save credential</button>
+    </div>
+  </form>
+</dialog>
+</body>
+</html>
