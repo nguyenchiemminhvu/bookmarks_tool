@@ -1,0 +1,1818 @@
+{
+  "exported_at": 1794998763,
+  "links": [
+    {
+      "id": 110,
+      "url": "https://interrupt.memfault.com/blog/practical_zephyr_west",
+      "title": "Practical Zephyr - West workspaces (Part 6) | Interrupt",
+      "notes": "",
+      "created_at": 1794998752,
+      "updated_at": 1794998752,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 109,
+      "url": "https://interrupt.memfault.com/blog/practical_zephyr_05_dt_practice",
+      "title": "Practical Zephyr - Devicetree practice (Part 5) | Interrupt",
+      "notes": "",
+      "created_at": 1794998741,
+      "updated_at": 1794998741,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 108,
+      "url": "https://interrupt.memfault.com/blog/practical_zephyr_dt_semantics",
+      "title": "Practical Zephyr - Devicetree semantics (Part 4) | Interrupt",
+      "notes": "",
+      "created_at": 1794998726,
+      "updated_at": 1794998726,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 107,
+      "url": "https://interrupt.memfault.com/blog/practical_zephyr_dt",
+      "title": "Practical Zephyr - Devicetree basics (Part 3) | Interrupt",
+      "notes": "",
+      "created_at": 1794998713,
+      "updated_at": 1794998713,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 106,
+      "url": "https://interrupt.memfault.com/blog/practical_zephyr_kconfig",
+      "title": "Practical Zephyr - Kconfig (Part 2) | Interrupt",
+      "notes": "",
+      "created_at": 1794998699,
+      "updated_at": 1794998699,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 105,
+      "url": "https://interrupt.memfault.com/blog/practical_zephyr_basics",
+      "title": "Practical Zephyr - Zephyr Basics (Part 1) | Interrupt",
+      "notes": "",
+      "created_at": 1794998684,
+      "updated_at": 1794998684,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 104,
+      "url": "https://interrupt.memfault.com/blog/west-tips-and-tricks",
+      "title": "Zephyr West tips and tricks | Interrupt",
+      "notes": "",
+      "created_at": 1794998645,
+      "updated_at": 1794998645,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 103,
+      "url": "https://docs.zephyrproject.org/latest/build/dts/index.html",
+      "title": "Devicetree — Zephyr Project Documentation",
+      "notes": "",
+      "created_at": 1794998614,
+      "updated_at": 1794998614,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "device-tree",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 102,
+      "url": "https://academy.nordicsemi.com/courses/nrf-connect-sdk-intermediate/",
+      "title": "nRF Connect SDK Intermediate - Nordic Developer Academy",
+      "notes": "",
+      "created_at": 1794998583,
+      "updated_at": 1794998583,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 101,
+      "url": "https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/",
+      "title": "nRF Connect SDK Fundamentals - Nordic Developer Academy",
+      "notes": "",
+      "created_at": 1794998521,
+      "updated_at": 1794998521,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 100,
+      "url": "https://embeddedfun.org/docs/zephyr-training/basic/",
+      "title": "Zephyr Basic | EmbeddedFun",
+      "notes": "",
+      "created_at": 1794998489,
+      "updated_at": 1794998527,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 99,
+      "url": "https://www.beningo.com/mastering-the-zephyr-rtos-devicetree-and-overlays/",
+      "title": "Mastering the Zephyr RTOS Devicetree and Overlays | Beningo",
+      "notes": "",
+      "created_at": 1794998374,
+      "updated_at": 1794998534,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "device-tree",
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 98,
+      "url": "https://hubble.com/community/guides/zephyr-devicetree-explained-how-hardware-description-actually-works/",
+      "title": "Zephyr Devicetree Explained: How Hardware Description Actually Works – Hubble Network Community",
+      "notes": "",
+      "created_at": 1794998339,
+      "updated_at": 1794998542,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "device-tree",
+        "embedded",
+        "guide",
+        "rtos",
+        "study",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 97,
+      "url": "https://hubble.com/community/guides/how-to-add-custom-board-support-in-zephyr/",
+      "title": "How to Add Custom Board Support in Zephyr – Hubble Network Community",
+      "notes": "",
+      "created_at": 1794998297,
+      "updated_at": 1794998546,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "rtos",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 96,
+      "url": "https://docs.zephyrproject.org/latest/build/kconfig/tips.html",
+      "title": "Kconfig - Tips and Best Practices — Zephyr Project Documentation",
+      "notes": "",
+      "created_at": 1794998208,
+      "updated_at": 1794998553,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "guide",
+        "kconfig",
+        "rtos",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 95,
+      "url": "https://docs.zephyrproject.org/latest/develop/west/index.html",
+      "title": "West (Zephyr’s meta-tool) — Zephyr Project Documentation",
+      "notes": "",
+      "created_at": 1794998062,
+      "updated_at": 1794998559,
+      "check_status": null,
+      "check_code": null,
+      "check_error": null,
+      "checked_at": null,
+      "tags": [
+        "embedded",
+        "rtos",
+        "west",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 94,
+      "url": "https://gist.github.com/Scott31393/e7e3c952cee327fe0496ae09e3e839cd",
+      "title": "Bitbake-Cheatsheet.md · GitHub",
+      "notes": "",
+      "created_at": 1794996107,
+      "updated_at": 1794996107,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794996141,
+      "tags": [
+        "bitbake",
+        "embedded",
+        "guide",
+        "yocto"
+      ]
+    },
+    {
+      "id": 93,
+      "url": "https://a4z.noexcept.dev/docs/BitBake/guide.html",
+      "title": "A practical guide to BitBake",
+      "notes": "",
+      "created_at": 1794996037,
+      "updated_at": 1794996037,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794996041,
+      "tags": [
+        "bitbake",
+        "embedded",
+        "guide",
+        "study",
+        "yocto"
+      ]
+    },
+    {
+      "id": 92,
+      "url": "https://docs.yoctoproject.org/bitbake/2.0/index.html",
+      "title": "BitBake User Manual — Bitbake 2.0 documentation",
+      "notes": "",
+      "created_at": 1794995983,
+      "updated_at": 1794995983,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794996042,
+      "tags": [
+        "bitbake",
+        "embedded",
+        "yocto"
+      ]
+    },
+    {
+      "id": 91,
+      "url": "https://docs.yoctoproject.org/overview-manual/index.html",
+      "title": "Yocto Project Overview and Concepts Manual — The Yocto Project ® 6.1-tip documentation",
+      "notes": "",
+      "created_at": 1794995958,
+      "updated_at": 1794995958,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794996042,
+      "tags": [
+        "embedded",
+        "linux",
+        "yocto"
+      ]
+    },
+    {
+      "id": 90,
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML",
+      "title": "GitHub - plantuml-stdlib/C4-PlantUML",
+      "notes": "",
+      "created_at": 1794989184,
+      "updated_at": 1794989190,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989192,
+      "tags": [
+        "design",
+        "diagrams",
+        "github",
+        "plantuml"
+      ]
+    },
+    {
+      "id": 89,
+      "url": "https://dev.to/yasmine_ddec94f4d4/understanding-the-layered-architecture-pattern-a-comprehensive-guide-1e2j",
+      "title": "Understanding the Layered Architecture Pattern: A Comprehensive Guide - DEV Community",
+      "notes": "",
+      "created_at": 1794989046,
+      "updated_at": 1794989046,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "architecture",
+        "design",
+        "guide",
+        "layer",
+        "study"
+      ]
+    },
+    {
+      "id": 88,
+      "url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "title": "Programming paradigm - Wikipedia",
+      "notes": "",
+      "created_at": 1794989001,
+      "updated_at": 1794989001,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "design",
+        "paradigm",
+        "programming",
+        "study"
+      ]
+    },
+    {
+      "id": 87,
+      "url": "https://www.geeksforgeeks.org/software-engineering/overview-of-event-driven-architecture-eda/",
+      "title": "Overview of Event-Driven Architecture (EDA) - GeeksforGeeks",
+      "notes": "",
+      "created_at": 1794988956,
+      "updated_at": 1794988956,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "architecture",
+        "design",
+        "event",
+        "study"
+      ]
+    },
+    {
+      "id": 86,
+      "url": "https://www.ibm.com/docs/en/dma?topic=diagrams-uml-models",
+      "title": "UML models and diagrams | IBM Documentation",
+      "notes": "",
+      "created_at": 1794985181,
+      "updated_at": 1794985181,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "diagrams",
+        "guide",
+        "study",
+        "uml"
+      ]
+    },
+    {
+      "id": 85,
+      "url": "https://www.geeksforgeeks.org/system-design/system-design-tutorial/",
+      "title": "System Design Tutorial - GeeksforGeeks",
+      "notes": "",
+      "created_at": 1794985111,
+      "updated_at": 1794985111,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "design",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 84,
+      "url": "https://deviq.com/architecture/",
+      "title": "Software Architecture – DevIQ",
+      "notes": "",
+      "created_at": 1794985063,
+      "updated_at": 1794985063,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "architecture",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 83,
+      "url": "https://deviq.com/principles/",
+      "title": "Programming Principles – DevIQ",
+      "notes": "",
+      "created_at": 1794985017,
+      "updated_at": 1794985017,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "oop",
+        "principles",
+        "programming"
+      ]
+    },
+    {
+      "id": 82,
+      "url": "https://deviq.com/design-patterns/",
+      "title": "Design Patterns – DevIQ",
+      "notes": "",
+      "created_at": 1794984980,
+      "updated_at": 1794984980,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "design-patterns",
+        "guide",
+        "oop",
+        "study"
+      ]
+    },
+    {
+      "id": 81,
+      "url": "https://bytebytego.com/guides/software-architecture/",
+      "title": "ByteByteGo | Software Architecture",
+      "notes": "",
+      "created_at": 1794984908,
+      "updated_at": 1794984908,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "architecture",
+        "design",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 80,
+      "url": "https://algomaster.io/learn/lld/course-introduction",
+      "title": "Course Introduction | Low Level Design",
+      "notes": "",
+      "created_at": 1794984837,
+      "updated_at": 1794984837,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "design",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 79,
+      "url": "https://codemia.io/system-design",
+      "title": "120+ System Design Interview Questions & Problems | Codemia",
+      "notes": "",
+      "created_at": 1794984807,
+      "updated_at": 1794984807,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "design",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 78,
+      "url": "https://www.tutorialspoint.com/software_architecture_design/index.htm",
+      "title": "Software Architecture & Design Tutorial",
+      "notes": "",
+      "created_at": 1794984763,
+      "updated_at": 1794984763,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "architecture",
+        "design",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 77,
+      "url": "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/92/20/prolific-usb-to-serial-fix-official-solution-to-code-10-error",
+      "title": "Prolific USB-to-Serial Fix (Official Solution to 'Code 10 error') | Car OBD Diagnostics, ECU Chip Tuning & Auto Repair Support",
+      "notes": "",
+      "created_at": 1794973050,
+      "updated_at": 1794973050,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "embedded",
+        "fix",
+        "serial"
+      ]
+    },
+    {
+      "id": 76,
+      "url": "https://hocarm.org/huong-dan-cai-driver-pl2303-voi-win10/#google_vignette",
+      "title": "Driver PL2303 Win10 | Học ARM",
+      "notes": "",
+      "created_at": 1794973026,
+      "updated_at": 1794973026,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "driver",
+        "embedded",
+        "pl2303"
+      ]
+    },
+    {
+      "id": 75,
+      "url": "https://www.wasilzafar.com/pages/series/embedded-systems/embedded-systems-rtos.html?utm_source=chatgpt.com",
+      "title": "Embedded Systems Series Part 3: RTOS Fundamentals (FreeRTOS/Zephyr) - Wasil Zafar",
+      "notes": "",
+      "created_at": 1794972984,
+      "updated_at": 1794972984,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "embedded",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 74,
+      "url": "https://www.wasilzafar.com/pages/series/embedded-systems/embedded-systems-stm32-arm.html",
+      "title": "Embedded Systems Series Part 2: STM32 & ARM Cortex-M Development - Wasil Zafar",
+      "notes": "",
+      "created_at": 1794972972,
+      "updated_at": 1794972972,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989083,
+      "tags": [
+        "embedded",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 73,
+      "url": "https://www.wasilzafar.com/pages/series/embedded-systems/embedded-systems-fundamentals.html",
+      "title": "Embedded Systems Series Part 1: Fundamentals & Architecture - Wasil Zafar",
+      "notes": "",
+      "created_at": 1794972960,
+      "updated_at": 1794972960,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "embedded",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 72,
+      "url": "https://lib.rs/embedded",
+      "title": "Embedded development — list of Rust libraries/crates // Lib.rs",
+      "notes": "",
+      "created_at": 1794972911,
+      "updated_at": 1794972911,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "embedded",
+        "library",
+        "rust"
+      ]
+    },
+    {
+      "id": 71,
+      "url": "https://openamp.readthedocs.io/en/latest/protocol_details/rpmsg.html",
+      "title": "Inter Process Communications (IPC) through RPMsg Protocol — OpenAMP documentation",
+      "notes": "",
+      "created_at": 1794971212,
+      "updated_at": 1794971212,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "embedded",
+        "ipc",
+        "protocol",
+        "rpmsg"
+      ]
+    },
+    {
+      "id": 70,
+      "url": "https://interrupt.memfault.com/blog/embedded-systems-roadmap-bridging-the-gap",
+      "title": "Embedded Systems Roadmap: Bridging the Gap | Interrupt",
+      "notes": "",
+      "created_at": 1794970675,
+      "updated_at": 1794970675,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "embedded",
+        "guide",
+        "study"
+      ]
+    },
+    {
+      "id": 69,
+      "url": "https://cp-algorithms.com/index.html",
+      "title": "Main Page - Algorithms for Competitive Programming",
+      "notes": "",
+      "created_at": 1794915477,
+      "updated_at": 1794915477,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "algorithms",
+        "dsa",
+        "study"
+      ]
+    },
+    {
+      "id": 68,
+      "url": "https://www.geeksforgeeks.org/category/dsa/algorithm/game-theory/",
+      "title": "Game Theory Archives - GeeksforGeeks",
+      "notes": "",
+      "created_at": 1794915418,
+      "updated_at": 1794915496,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "algorithms",
+        "dsa",
+        "game-theory",
+        "study"
+      ]
+    },
+    {
+      "id": 67,
+      "url": "https://www.geeksforgeeks.org/dsa/dynamic-programming/",
+      "title": "Dynamic Programming or DP - GeeksforGeeks",
+      "notes": "",
+      "created_at": 1794915392,
+      "updated_at": 1794915500,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "algorithm",
+        "dsa",
+        "dynamic-programming",
+        "study"
+      ]
+    },
+    {
+      "id": 66,
+      "url": "https://wiki.wireshark.org/CaptureFilters",
+      "title": "CaptureFilters - Wireshark Wiki",
+      "notes": "",
+      "created_at": 1794913608,
+      "updated_at": 1794913608,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "filter",
+        "utility",
+        "wireshark"
+      ]
+    },
+    {
+      "id": 65,
+      "url": "https://wiki.wireshark.org/DisplayFilters",
+      "title": "DisplayFilters - Wireshark Wiki",
+      "notes": "",
+      "created_at": 1794913596,
+      "updated_at": 1794913596,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "filter",
+        "utility",
+        "wireshark"
+      ]
+    },
+    {
+      "id": 64,
+      "url": "https://cssgrid-generator.netlify.app/",
+      "title": "CSS Grid Generator",
+      "notes": "",
+      "created_at": 1794913576,
+      "updated_at": 1794913576,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "id": 63,
+      "url": "https://whiteboard.cloud.microsoft/",
+      "title": "Microsoft Whiteboard",
+      "notes": "",
+      "created_at": 1794913544,
+      "updated_at": 1794913544,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "board",
+        "utility"
+      ]
+    },
+    {
+      "id": 62,
+      "url": "https://mermaid.live/",
+      "title": "Online FlowChart & Diagrams Editor - Mermaid Live Editor",
+      "notes": "",
+      "created_at": 1794913505,
+      "updated_at": 1794913505,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "diagrams",
+        "utility"
+      ]
+    },
+    {
+      "id": 61,
+      "url": "https://www.onlinegantt.com/#/gantt",
+      "title": "Free Online Gantt Chart Software",
+      "notes": "",
+      "created_at": 1794913463,
+      "updated_at": 1794913463,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "diagrams",
+        "utility"
+      ]
+    },
+    {
+      "id": 60,
+      "url": "https://plantumleditor.com/webedit/",
+      "title": "Plantuml online editor",
+      "notes": "",
+      "created_at": 1794913444,
+      "updated_at": 1794913444,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "diagrams",
+        "plantuml",
+        "utility"
+      ]
+    },
+    {
+      "id": 59,
+      "url": "https://www.mindmup.com/",
+      "title": "Mindmup",
+      "notes": "",
+      "created_at": 1794913422,
+      "updated_at": 1794913422,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "diagrams",
+        "utility"
+      ]
+    },
+    {
+      "id": 58,
+      "url": "https://app.diagrams.net/",
+      "title": "Flowchart Maker & Online Diagram Software",
+      "notes": "",
+      "created_at": 1794913393,
+      "updated_at": 1794913393,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "diagrams",
+        "utility"
+      ]
+    },
+    {
+      "id": 56,
+      "url": "https://godbolt.org/",
+      "title": "Compiler Explorer",
+      "notes": "",
+      "created_at": 1794913312,
+      "updated_at": 1794913319,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "compiler",
+        "cpp",
+        "utility"
+      ]
+    },
+    {
+      "id": 55,
+      "url": "https://www.3blue1brown.com/#lessons",
+      "title": "3Blue1Brown Math Lessons",
+      "notes": "",
+      "created_at": 1794913055,
+      "updated_at": 1794913055,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "math",
+        "study",
+        "visualize"
+      ]
+    },
+    {
+      "id": 54,
+      "url": "https://www.geeksforgeeks.org/dsa/geometric-algorithms/",
+      "title": "Geometric Algorithms - GeeksforGeeks",
+      "notes": "",
+      "created_at": 1794913006,
+      "updated_at": 1794913012,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "geometry",
+        "math",
+        "programming"
+      ]
+    },
+    {
+      "id": 53,
+      "url": "https://www.geeksforgeeks.org/dsa/mathematical-algorithms/",
+      "title": "Mathematical Algorithms - GeeksforGeeks",
+      "notes": "",
+      "created_at": 1794912991,
+      "updated_at": 1794912991,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "math",
+        "programming"
+      ]
+    },
+    {
+      "id": 52,
+      "url": "https://github.com/gaujay/jomt",
+      "title": "GitHub - gaujay/jomt: Google Benchmark data visualization tool",
+      "notes": "",
+      "created_at": 1794912916,
+      "updated_at": 1794912916,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "benchmark",
+        "cpp",
+        "visualize"
+      ]
+    },
+    {
+      "id": 51,
+      "url": "https://archive.eclipse.org/tracecompass.incubator/doc/org.eclipse.tracecompass.incubator.ftrace.doc.user/User-Guide.html",
+      "title": "Trace Compass ftrace User Guide",
+      "notes": "",
+      "created_at": 1794912879,
+      "updated_at": 1794912879,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "ftrace",
+        "guide"
+      ]
+    },
+    {
+      "id": 50,
+      "url": "https://docs.kernel.org/trace/ftrace.html",
+      "title": "ftrace - Function Tracer — The Linux Kernel documentation",
+      "notes": "",
+      "created_at": 1794912862,
+      "updated_at": 1794912862,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "ftrace",
+        "guide"
+      ]
+    },
+    {
+      "id": 49,
+      "url": "https://ocw.mit.edu/",
+      "title": "MIT OpenCourseWare | Free Online Course Materials",
+      "notes": "",
+      "created_at": 1794912834,
+      "updated_at": 1794912834,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "mit",
+        "study"
+      ]
+    },
+    {
+      "id": 48,
+      "url": "https://www.embeddedrelated.com/showarticle/1625.php",
+      "title": "Finite State Machines (FSM) in Embedded Systems (Part 1)",
+      "notes": "",
+      "created_at": 1794912769,
+      "updated_at": 1794912769,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "design-patterns",
+        "embedded",
+        "fsm",
+        "oop"
+      ]
+    },
+    {
+      "id": 47,
+      "url": "https://www.aleksandrhovhannisyan.com/blog/implementing-a-finite-state-machine-in-cpp/",
+      "title": "Implementing a Finite State Machine in C++ | Aleksandr Hovhannisyan",
+      "notes": "",
+      "created_at": 1794912739,
+      "updated_at": 1794912739,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "cpp",
+        "design-patterns",
+        "fsm"
+      ]
+    },
+    {
+      "id": 46,
+      "url": "https://sourcemaking.com/design_patterns",
+      "title": "Design Patterns",
+      "notes": "",
+      "created_at": 1794912715,
+      "updated_at": 1794912715,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "design-patterns",
+        "oop"
+      ]
+    },
+    {
+      "id": 45,
+      "url": "https://refactoring.guru/design-patterns",
+      "title": "Design Patterns",
+      "notes": "",
+      "created_at": 1794912701,
+      "updated_at": 1794912701,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "design-patterns",
+        "oop"
+      ]
+    },
+    {
+      "id": 44,
+      "url": "https://python-patterns.guide/",
+      "title": "Python Design Patterns",
+      "notes": "",
+      "created_at": 1794911575,
+      "updated_at": 1794911575,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "design-patterns",
+        "oop",
+        "python"
+      ]
+    },
+    {
+      "id": 43,
+      "url": "https://python-patterns.guide/gang-of-four/composition-over-inheritance/",
+      "title": "The Composition Over Inheritance Principle",
+      "notes": "",
+      "created_at": 1794911555,
+      "updated_at": 1794911555,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "guide",
+        "oop",
+        "python"
+      ]
+    },
+    {
+      "id": 42,
+      "url": "https://faculty.ksu.edu.sa/sites/default/files/ObjectOrientedProgramminginC4thEdition.pdf",
+      "title": "OOP pdf",
+      "notes": "",
+      "created_at": 1794911498,
+      "updated_at": 1794911498,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "guide",
+        "oop",
+        "pdf"
+      ]
+    },
+    {
+      "id": 41,
+      "url": "https://cliutils.gitlab.io/modern-cmake/modern-cmake.pdf",
+      "title": "Mordern CMake pdf",
+      "notes": "",
+      "created_at": 1794911451,
+      "updated_at": 1794911451,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "cmake",
+        "guide"
+      ]
+    },
+    {
+      "id": 40,
+      "url": "https://github.com/ttroy50/cmake-examples",
+      "title": "GitHub - ttroy50/cmake-examples: Useful CMake Examples",
+      "notes": "",
+      "created_at": 1794911423,
+      "updated_at": 1794911423,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cmake",
+        "guide"
+      ]
+    },
+    {
+      "id": 39,
+      "url": "https://cliutils.gitlab.io/modern-cmake/",
+      "title": "An Introduction to Modern CMake - Modern CMake",
+      "notes": "",
+      "created_at": 1794911367,
+      "updated_at": 1794911367,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "cmake",
+        "guide"
+      ]
+    },
+    {
+      "id": 38,
+      "url": "https://blog.feabhas.com/2021/08/cmake-part-3-source-file-organisation/?fbclid=IwAR094ep-_EYNix0WLa60D2OlRrDGEAjFn3kK740mw4b98i2GfR9VsUY35is",
+      "title": "CMake Part 3 – Source File Organisation",
+      "notes": "",
+      "created_at": 1794911336,
+      "updated_at": 1794911336,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "cmake",
+        "guide"
+      ]
+    },
+    {
+      "id": 37,
+      "url": "https://blog.feabhas.com/2021/07/cmake-part-2-release-and-debug-builds/",
+      "title": "CMake Part 2 - Release and Debug builds",
+      "notes": "",
+      "created_at": 1794911319,
+      "updated_at": 1794911319,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cmake",
+        "guide"
+      ]
+    },
+    {
+      "id": 36,
+      "url": "https://blog.feabhas.com/2021/07/cmake-part-1-the-dark-arts/",
+      "title": "CMake Part 1 - The Dark Arts",
+      "notes": "",
+      "created_at": 1794911290,
+      "updated_at": 1794911290,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cmake",
+        "guide"
+      ]
+    },
+    {
+      "id": 35,
+      "url": "https://freesoftwaremagazine.com/books/autotools_a_guide_to_autoconf_automake_libtool/",
+      "title": "Autotools: a practitioner's guide to Autoconf, Automake and Libtool",
+      "notes": "",
+      "created_at": 1794911142,
+      "updated_at": 1794911142,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "autotools",
+        "gnu",
+        "guide"
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://www.gnu.org/savannah-checkouts/gnu/libtool/manual/libtool.html",
+      "title": "GNU Autotools - Libtool",
+      "notes": "",
+      "created_at": 1794911116,
+      "updated_at": 1794911116,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989089,
+      "tags": [
+        "autotools",
+        "gnu",
+        "libtool"
+      ]
+    },
+    {
+      "id": 33,
+      "url": "https://www.gnu.org/savannah-checkouts/gnu/automake/manual/automake.html",
+      "title": "GNU Autotools - automake",
+      "notes": "",
+      "created_at": 1794911093,
+      "updated_at": 1794911093,
+      "check_status": "unreachable",
+      "check_code": null,
+      "check_error": "_ssl.c:993: The handshake operation timed out",
+      "checked_at": 1794996057,
+      "tags": [
+        "automake",
+        "autotools",
+        "gnu"
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.72/autoconf.html",
+      "title": "GNU Autotools - Autoconf",
+      "notes": "",
+      "created_at": 1794911067,
+      "updated_at": 1794911067,
+      "check_status": "unreachable",
+      "check_code": null,
+      "check_error": "_ssl.c:993: The handshake operation timed out",
+      "checked_at": 1794996058,
+      "tags": [
+        "autoconf",
+        "autotools",
+        "gnu"
+      ]
+    },
+    {
+      "id": 30,
+      "url": "https://earthly.dev/blog/series/makefile/",
+      "title": "MakeFile - Earthly Blog",
+      "notes": "",
+      "created_at": 1794910850,
+      "updated_at": 1794910850,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "blog",
+        "guide",
+        "makefile"
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://makefiletutorial.com/",
+      "title": "Makefile Tutorial By Example",
+      "notes": "",
+      "created_at": 1794910826,
+      "updated_at": 1794910826,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "guide",
+        "makefile",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://www.gnu.org/software/make/manual/make.html",
+      "title": "GNU make",
+      "notes": "",
+      "created_at": 1794910807,
+      "updated_at": 1794910898,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989119,
+      "tags": [
+        "gnu",
+        "guide",
+        "makefile"
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://www.engineering.upenn.edu/~ese5320/fall2022/handouts/_downloads/788d972ffe62083c2f1e3f86b7c03f5d/gccintro.pdf",
+      "title": "An Introduction to GCC",
+      "notes": "",
+      "created_at": 1794910758,
+      "updated_at": 1794910758,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "document",
+        "gcc",
+        "guide"
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://gcc.gnu.org/onlinedocs/gcc-13.2.0/gcc.pdf",
+      "title": "Using the GNU Compiler Collection (GCC)",
+      "notes": "",
+      "created_at": 1794910713,
+      "updated_at": 1794910713,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "document",
+        "gcc",
+        "guide"
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://github.com/COVESA/capicxx-someip-tools/wiki/CommonAPI-C---SomeIP-in-10-minutes",
+      "title": "CommonAPI C SomeIP in 10 minutes · COVESA/capicxx-someip-tools Wiki",
+      "notes": "",
+      "created_at": 1794910073,
+      "updated_at": 1794910073,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "common-api",
+        "cpp",
+        "guide",
+        "someip",
+        "wiki"
+      ]
+    },
+    {
+      "id": 24,
+      "url": "https://github.com/franca/franca",
+      "title": "GitHub - franca/franca: fidl",
+      "notes": "",
+      "created_at": 1794910025,
+      "updated_at": 1794910025,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "common-api",
+        "cpp",
+        "fidl"
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://github.com/COVESA/capicxx-someip-runtime",
+      "title": "GitHub - COVESA/capicxx-someip-runtime: Common API C++ SOMEIP runtime",
+      "notes": "",
+      "created_at": 1794909993,
+      "updated_at": 1794909993,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "common-api",
+        "cpp",
+        "someip"
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://github.com/COVESA/capicxx-core-runtime",
+      "title": "GitHub - COVESA/capicxx-core-runtime: Common API C++ core runtime",
+      "notes": "",
+      "created_at": 1794909965,
+      "updated_at": 1794909965,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "common-api",
+        "cpp"
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://github.com/COVESA/capicxx-core-tools/wiki/",
+      "title": "Home · COVESA/capicxx-core-tools Wiki · GitHub",
+      "notes": "",
+      "created_at": 1794909933,
+      "updated_at": 1794909933,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "common-api",
+        "cpp",
+        "wiki"
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://covesa.github.io/capicxx-core-tools/",
+      "title": "CommonAPI C++",
+      "notes": "",
+      "created_at": 1794909910,
+      "updated_at": 1794909910,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989077,
+      "tags": [
+        "common-api",
+        "cpp"
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://github.com/CliveLau1990/CommonAPI-Examples",
+      "title": "GitHub - CliveLau1990/CommonAPI-Examples",
+      "notes": "",
+      "created_at": 1794907284,
+      "updated_at": 1794907284,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "common-api",
+        "cpp"
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://github.com/MicrochipTech/some-ip",
+      "title": "GitHub - MicrochipTech/some-ip",
+      "notes": "",
+      "created_at": 1794907216,
+      "updated_at": 1794907229,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "common-api",
+        "cpp",
+        "guide",
+        "vsomeip"
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://github.com/COVESA/vsomeip/wiki/vsomeip-in-10-minutes",
+      "title": "vsomeip in 10 minutes · COVESA/vsomeip Wiki · GitHub",
+      "notes": "",
+      "created_at": 1794907166,
+      "updated_at": 1794907166,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cpp",
+        "guide",
+        "library",
+        "vsomeip"
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://github.com/etlcpp/etl",
+      "title": "GitHub - ETLCPP/etl: Embedded Template Library",
+      "notes": "",
+      "created_at": 1794907138,
+      "updated_at": 1794907138,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cpp",
+        "embedded",
+        "etl",
+        "library"
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://www.etlcpp.com/docs/",
+      "title": "Embedded Template Library",
+      "notes": "",
+      "created_at": 1794907113,
+      "updated_at": 1794907113,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "cpp",
+        "embedded",
+        "etl",
+        "library"
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://sourceforge.net/p/predef/wiki/Standards/",
+      "title": "Pre-defined Compiler Macros / Wiki / Standards",
+      "notes": "",
+      "created_at": 1794906913,
+      "updated_at": 1794906913,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989080,
+      "tags": [
+        "cpp",
+        "macros",
+        "standards"
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://github.com/CppCon",
+      "title": "CppCon · GitHub",
+      "notes": "",
+      "created_at": 1794906861,
+      "updated_at": 1794906861,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "conference",
+        "cpp"
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://github.com/gcc-mirror/gcc",
+      "title": "GitHub - gcc-mirror/gcc · GitHub",
+      "notes": "",
+      "created_at": 1794906802,
+      "updated_at": 1794906802,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cpp",
+        "gcc"
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://cppinsights.io/",
+      "title": "C++ Insights",
+      "notes": "",
+      "created_at": 1794906730,
+      "updated_at": 1794906744,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "cpp",
+        "utility"
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://valgrind.org/docs/manual/manual.html",
+      "title": "Valgrind tool manual",
+      "notes": "",
+      "created_at": 1794906644,
+      "updated_at": 1794906644,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "memory",
+        "valgrind"
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://cppinstitute.org/",
+      "title": "C++ Institute - Train smart. Certify strong.",
+      "notes": "",
+      "created_at": 1794906548,
+      "updated_at": 1794906548,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "cert",
+        "cpp",
+        "study"
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://docs.zephyrproject.org/latest/develop/getting_started/index.html",
+      "title": "Getting Started Guide — Zephyr Project Documentation",
+      "notes": "",
+      "created_at": 1794905748,
+      "updated_at": 1794905748,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989079,
+      "tags": [
+        "embedded",
+        "guide",
+        "zephyr"
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://platis.solutions/blog/2020/06/22/how-to-write-solid-cpp/",
+      "title": "How to write SOLID C++ | Dimitris Platis",
+      "notes": "",
+      "created_at": 1794903060,
+      "updated_at": 1794903060,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989081,
+      "tags": [
+        "blog",
+        "cpp",
+        "oop",
+        "solid"
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://emre.me/",
+      "title": "emre.me blog",
+      "notes": "",
+      "created_at": 1794900942,
+      "updated_at": 1794900942,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989078,
+      "tags": [
+        "algorithms",
+        "blog",
+        "dsa",
+        "python"
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.fluentcpp.com/",
+      "title": "Fluent C++ - Jonathan Boccara's blog",
+      "notes": "",
+      "created_at": 1794897761,
+      "updated_at": 1794897761,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "blog",
+        "cpp"
+      ]
+    },
+    {
+      "id": 1,
+      "url": "https://www.learncpp.com/",
+      "title": "Learn C++ – Skill up with our free tutorials",
+      "notes": "",
+      "created_at": 1794897678,
+      "updated_at": 1794897678,
+      "check_status": "ok",
+      "check_code": 200,
+      "check_error": null,
+      "checked_at": 1794989082,
+      "tags": [
+        "cpp",
+        "study"
+      ]
+    }
+  ]
+}
