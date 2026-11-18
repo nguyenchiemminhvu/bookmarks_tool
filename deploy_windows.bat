@@ -8,17 +8,18 @@ if exist "dist\bookmarks.exe" del /F "dist\bookmarks.exe"
 python -m PyInstaller --onefile --noconsole --name "bookmarks" --add-data "bookmarks/static;bookmarks/static" run_bookmarks.py
 
 @rem find the exe in dist folder
-for %%f in (dist\*.exe) do set EXE_PATH=%%f
+for %%f in (dist\*.exe) do set "EXE_PATH=%%~ff"
+if not defined EXE_PATH (
+    echo ERROR: no exe found in dist folder
+    exit /b 1
+)
+for %%f in ("%EXE_PATH%") do set "EXE_DIR=%%~dpf"
 echo Found exe: %EXE_PATH%
 
-@rem make a shortcut next to the exe, named as "bookmarks.lnk", overwrite if exists
-set SHORTCUT_PATH=%~dp0bookmarks.lnk
-powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%SHORTCUT_PATH%');$s.TargetPath='%EXE_PATH%';$s.Save()"
+@rem make a shortcut from the exe, named as "bookmarks.lnk", at shell:startup folder, overwrite if exists
+set SHORTCUT_PATH=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\bookmarks.lnk
 if exist "%SHORTCUT_PATH%" del /F "%SHORTCUT_PATH%"
-
-@rem move the shortcut to the shell:startup folder, overwrite if exists
-set STARTUP_PATH=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\bookmarks.lnk
-move /Y /F "%SHORTCUT_PATH%" "%STARTUP_PATH%"
+powershell -NoProfile -Command "$s=(New-Object -COM WScript.Shell).CreateShortcut('%SHORTCUT_PATH%');$s.TargetPath='%EXE_PATH%';$s.WorkingDirectory='%EXE_DIR%';$s.Save()"
 
 @rem run the exe file
 start "" "%EXE_PATH%"
