@@ -15,7 +15,11 @@ from .importer import parse_bookmarks_html
 from .server import make_server
 from .store import Store
 
-DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+if getattr(sys, "frozen", False):
+    # In a PyInstaller exe, __file__ points into a temporary extraction folder that is deleted on exit.
+    DEFAULT_DATA_DIR = Path(sys.executable).resolve().parent / "data"
+else:
+    DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 LEGACY_DATA_DIR = Path.home() / ".bookmarks"
 DEFAULT_PORT = 47213  # 8765-style ports collide with dev tools (e.g. VS Code extensions)
 

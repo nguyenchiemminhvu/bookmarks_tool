@@ -2,3 +2,6 @@ artifacts-ada/.telemetry/
 artifacts-ada/compile-check/
 __pycache__/
 data/
+build/
+dist/
+bookmarks.spec

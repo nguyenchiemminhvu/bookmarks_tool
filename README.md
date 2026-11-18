@@ -25,32 +25,30 @@ Run from this folder, or put it on `PYTHONPATH`. The server listens on 127.0.0.1
 ## Run in the background
 
 Start the dashboard automatically, without a console window. Run it as your own user, not as a system
-service: data is read from the `data/` folder next to `bookmarks/`, and `credentials.json` is restricted
+service: data is read from the `data/` folder next to `bookmarks/` (or next to the exe), and `credentials.json` is restricted
 to your account. Always pass `--no-browser`. While it runs, open `http://127.0.0.1:47213/` directly;
 `python -m bookmarks import FILE` still works alongside it, but a second server fails on the busy port.
 
-### Windows: scheduled task at logon
+### Windows: PyInstaller executable (recommended)
 
-In PowerShell (set `-WorkingDirectory` to the folder containing `bookmarks/`):
+Build a standalone, windowless `bookmarks.exe` once with [PyInstaller](https://pyinstaller.org). It needs no
+Python on the machine that runs it and avoids `pythonw.exe` path problems.
 
 ```powershell
-$py = (py -c "import sys,os; print(os.path.join(sys.base_prefix,'pythonw.exe'))")
-$action   = New-ScheduledTaskAction -Execute $py -Argument '-m bookmarks --no-browser' -WorkingDirectory 'D:\tools\bookmarks'
-$trigger  = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
-$settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit ([TimeSpan]::Zero) `
-            -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 1) `
-            -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
-Register-ScheduledTask -TaskName 'Bookmarks' -Action $action -Trigger $trigger -Settings $settings
-Start-ScheduledTask -TaskName 'Bookmarks'
+pip install pyinstaller
+pyinstaller --onefile --noconsole --name bookmarks --add-data "bookmarks\static;bookmarks\static" run_bookmarks.py
 ```
 
-- `pythonw.exe` runs without a console window.
-- `-ExecutionTimeLimit ([TimeSpan]::Zero)` is required: by default Task Scheduler stops a task after 72 hours.
-- If registration fails with *Access denied*, run PowerShell as administrator; the task still runs as you.
-- Stop: `Stop-ScheduledTask Bookmarks`. Remove: `Unregister-ScheduledTask Bookmarks -Confirm:$false`.
+The result is `dist\bookmarks.exe` (`run_bookmarks.py` is the entry point; `--noconsole` means no console
+window). Copy it to a permanent folder, e.g. `D:\tools\bookmarks\`. The exe keeps its data in a `data\` folder
+**next to the exe** (not in a temporary extraction folder), so existing data can be copied there or the exe
+pointed at it with `--data-dir`. Rebuild and replace the exe to update; `data\` is untouched.
 
-Simpler, without restart on failure: put a shortcut in `shell:startup` with target
-`"<python folder>\pythonw.exe" -m bookmarks --no-browser` and *Start in* set to this folder.
+Put a shortcut to `bookmarks.exe` in `shell:startup`, add
+`--no-browser` to its target, and set *Start in* to the exe's folder.
+
+Without building an exe, `pythonw.exe -m bookmarks --no-browser` (from `<python folder>`, *Start in* set to
+this folder) also runs without a console window, but depends on the Python install staying in place.
 
 ### Linux: systemd user service
 
