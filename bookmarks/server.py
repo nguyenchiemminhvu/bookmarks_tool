@@ -13,6 +13,7 @@ from urllib.parse import parse_qs, unquote, urlsplit
 from .checker import Checker, fetch_title
 from .credentials import CredentialStore
 from .errors import DuplicateURL, NotFound
+from .exporter import export_chrome_html
 from .importer import parse_bookmarks_html
 from .store import Store, normalize_url
 
@@ -248,6 +249,12 @@ class Handler(BaseHTTPRequestHandler):
             self._json(self.store.import_links(parse_bookmarks_html(_str(data, "html"))))
 
     def get_export(self, query) -> None:
+        if query.get("format", [""])[0] == "chrome":
+            body = export_chrome_html(self.store.list_links()).encode("utf-8")
+            filename = time.strftime("bookmarks-chrome-%Y%m%d.html")
+            self._send(200, body, "text/html; charset=utf-8",
+                       {"Content-Disposition": f'attachment; filename="{filename}"'})
+            return
         body = json.dumps(self.store.export_data(), indent=2, ensure_ascii=False).encode("utf-8")
         filename = time.strftime("bookmarks-%Y%m%d.json")
         self._send(200, body, "application/json; charset=utf-8",

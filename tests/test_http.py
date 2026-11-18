@@ -135,6 +135,17 @@ class ServerTests(unittest.TestCase):
         self.assertEqual(self.request("DELETE", f"/api/links/{link['id']}")[0], 200)
         self.assertEqual(self.request("GET", "/api/links"), (200, []))
 
+    def test_chrome_export_download(self):
+        self.request("POST", "/api/links", {"url": "https://a.example.com/", "tags": ["jira"]})
+        conn = http.client.HTTPConnection("127.0.0.1", self.port, timeout=5)
+        conn.request("GET", "/api/export?format=chrome", headers={"Host": f"127.0.0.1:{self.port}"})
+        response = conn.getresponse()
+        body = response.read().decode("utf-8")
+        conn.close()
+        self.assertEqual(response.status, 200)
+        self.assertIn("text/html", response.getheader("Content-Type"))
+        self.assertIn("<H3>jira</H3>", body)
+
     def test_cross_site_and_rebinding_requests_rejected(self):
         body = {"url": "https://evil.example.com/"}
         self.assertEqual(self.request("POST", "/api/links", body, {"Content-Type": "text/plain"})[0], 415)

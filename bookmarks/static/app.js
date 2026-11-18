@@ -617,6 +617,31 @@ function wire() {
     await loadLinks();
   });
 
+  $("btn-export").addEventListener("click", () => {
+    $("export-error").textContent = "";
+    $("export-dialog").showModal();
+  });
+  $("export-cancel").addEventListener("click", () => $("export-dialog").close());
+  $("export-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const form = e.target.elements;
+    const urls = [];
+    if (form.json.checked) urls.push("/api/export");
+    if (form.chrome.checked) urls.push("/api/export?format=chrome");
+    if (!urls.length) {
+      $("export-error").textContent = "Pick at least one format.";
+      return;
+    }
+    $("export-dialog").close();
+    // Staggered so the browser treats them as separate downloads rather than blocking the second.
+    urls.forEach((url, i) => setTimeout(() => {
+      const a = el("a", { href: url, download: "" });
+      document.body.append(a);
+      a.click();
+      a.remove();
+    }, i * 400));
+  });
+
   $("select-all").addEventListener("change", (e) => {
     if (e.target.checked) state.visible.forEach((l) => state.selected.add(l.id));
     else state.selected.clear();

@@ -7,6 +7,7 @@ from pathlib import Path
 from bookmarks.backup import BACKUP_INTERVAL, PREFIX, BackupScheduler, is_due, list_backups, write_backup
 from bookmarks.credentials import CredentialStore
 from bookmarks.errors import DuplicateURL, NotFound
+from bookmarks.exporter import export_chrome_html
 from bookmarks.importer import parse_bookmarks_html
 from bookmarks.store import Store
 from bookmarks.tags import normalize_tag, normalize_tags
@@ -67,6 +68,23 @@ class ImporterTests(unittest.TestCase):
         self.assertEqual(links[0].title, "Page & A")
         self.assertEqual(links[0].add_date, 1700000000)
 
+    def test_chrome_export_makes_one_folder_per_tag_and_keeps_duplicates(self):
+        links = [
+            {"url": "https://a.example.com/?x=1&y=2", "title": "A <b> & co", "created_at": 1700000000,
+             "tags": ["jira", "work"]},
+            {"url": "https://b.example.com/", "title": "", "created_at": 1700000001, "tags": []},
+        ]
+        html = export_chrome_html(links)
+        self.assertIn("<H3>jira</H3>", html)
+        self.assertIn("<H3>work</H3>", html)
+        self.assertEqual(html.count('HREF="https://a.example.com/?x=1&amp;y=2"'), 2)
+        parsed = parse_bookmarks_html(html)
+        self.assertEqual(sorted((l.url, l.folders) for l in parsed), [
+            ("https://a.example.com/?x=1&y=2", ["jira"]),
+            ("https://a.example.com/?x=1&y=2", ["work"]),
+            ("https://b.example.com/", []),
+        ])
+        self.assertEqual(parsed[0].title, "A <b> & co")
 
 class StoreTests(unittest.TestCase):
     def setUp(self):

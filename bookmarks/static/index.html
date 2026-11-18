@@ -43,7 +43,7 @@
     <button id="btn-check" type="button">Check all</button>
     <button id="btn-creds" type="button">Credentials</button>
     <button id="btn-import" type="button">Import</button>
-    <a id="btn-export" class="button" href="/api/export" download>Export</a>
+    <button id="btn-export" type="button">Export</button>
     <input id="import-file" type="file" accept=".html,.htm,.json" hidden>
   </div>
 
@@ -96,6 +96,25 @@
     <div class="dialog-actions">
       <button type="button" id="btn-cancel">Cancel</button>
       <button type="submit" class="primary">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="export-dialog">
+  <form id="export-form" method="dialog">
+    <h2>Export</h2>
+    <label class="option">
+      <input type="checkbox" name="json" checked>
+      <span>JSON backup<span class="hint">All link data; can be imported back here.</span></span>
+    </label>
+    <label class="option">
+      <input type="checkbox" name="chrome">
+      <span>HTML for Google Chrome<span class="hint">For Chrome's Import bookmarks; each tag becomes a folder.</span></span>
+    </label>
+    <p id="export-error" class="error"></p>
+    <div class="dialog-actions">
+      <button type="button" id="export-cancel">Cancel</button>
+      <button type="submit" class="primary">OK</button>
     </div>
   </form>
 </dialog>

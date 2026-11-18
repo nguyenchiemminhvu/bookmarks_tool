@@ -91,7 +91,10 @@ are copied into `data/` (the old folder is left untouched and can be deleted).
 
 While the server runs, it writes a backup right after start-up if the newest one is older than 7 days, and
 re-checks every hour, so one is created about once a week (a server that is off for longer simply backs up at
-its next start). The newest 8 backups are kept. **Export** downloads the same JSON on demand.
+its next start). The newest 8 backups are kept. **Export** opens a dialog where you tick the formats to download:
+the JSON backup, a bookmarks HTML file for Chrome's *Import bookmarks* feature, or both. In the Chrome file each tag
+becomes a folder on the bookmarks bar, a link with several tags appears in every one of them (Chrome keeps the
+duplicates), and untagged links sit directly on the bar.
 
 If the server or database is unavailable, start a fresh one (`--data-dir` pointing at an empty folder, or
 delete the broken `bookmarks.db`) and restore with **Import** in the UI or
