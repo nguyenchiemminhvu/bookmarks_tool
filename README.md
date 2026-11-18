@@ -5,7 +5,7 @@ nothing to install.
 
 - Add, edit, delete links; bulk add/remove tags, check, or delete.
 - Tags instead of folders. Filter by several tags at once (AND); tag counts narrow as you filter.
-- Free-text search over title, URL, notes, and tags.
+- Tag search: every word typed in the search box must match one of a link's tags (AND), so more words narrow the results.
 - Link liveness checks, with optional per-host credentials for intranet tools.
 - Import a browser bookmarks HTML export (each folder name on a link's path becomes a tag) or a JSON backup.
 - Data lives in `data/` inside this project folder, with an automatic weekly JSON backup next to the database.

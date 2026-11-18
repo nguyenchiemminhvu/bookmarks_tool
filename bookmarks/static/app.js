@@ -70,7 +70,6 @@ function hostMatches(pattern, host) {
 }
 
 function indexLink(link) {
-  link.hay = [link.title, link.url, link.notes, ...link.tags].join(" ").toLowerCase();
   return link;
 }
 
@@ -104,7 +103,7 @@ function computeVisible() {
       (!state.untagged || l.tags.length === 0) &&
       tags.every((t) => l.tags.includes(t)) &&
       (!state.status || statusOf(l) === state.status) &&
-      tokens.every((t) => l.hay.includes(t)))
+      tokens.every((t) => l.tags.some((tag) => tag.includes(t))))
     .sort(comparators[state.sort]);
 }
 
